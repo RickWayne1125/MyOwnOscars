@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --main-color: #000000;
+  --secondary-color: #ffffff;
+  --accent-color: #ffd700;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+}
+
+.award {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 24px;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.award h1,
+.award h2,
+.award h3,
+.award h4,
+.award h5,
+.award h6 {
+  color: var(--main-color);
+}
+
+.award-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.award-header h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.award-header p {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.award-body {
+  margin-bottom: 16px;
+}
+
+.award-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.award-footer p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.award-footer button {
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.award-footer button:hover {
+  background-color: #ffc107;
+}
