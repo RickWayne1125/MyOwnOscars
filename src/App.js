@@ -11,6 +11,8 @@ function App() {
         <div style={{ marginLeft: "4vw", marginRight: "4vw" }}>
           <AwardGrid />
         </div>
+        {/* Put QRCODE Here */}
+        <img src="qrcode.png" alt="qrcode" style={{ maxWidth: "30%" }} />
         {/* Put copyright */}
         <img src="copyright.png" alt="copyright" style={{ maxWidth: "30%" }} />
       </header>
