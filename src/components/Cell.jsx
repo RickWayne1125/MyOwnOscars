@@ -65,7 +65,18 @@ const Cell = (award) => {
               onClick={() => handleSelectMovie()}
             />
           ) : (
-            <SelectButton onClick={handleSelectMovie} />
+            <div
+              style={{
+                objectFit: "cover",
+                height: "100%",
+                width: "100%",
+                maxWidth: "100%",
+                maxHeight: "100%",
+                aspectRatio: "27/40",
+              }}
+            >
+              <SelectButton onClick={handleSelectMovie} />
+            </div>
           )}
         </div>
       </div>

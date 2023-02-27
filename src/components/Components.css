@@ -5,6 +5,23 @@
   color: gold;
 }
 
+@media screen and (max-width: 768px) {
+  .award-gold {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .award-gold {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  .award-gold {
+    font-size: 1.5vw;
+  }
+}
+
 .cell {
   display: flex;
   flex-direction: column;
